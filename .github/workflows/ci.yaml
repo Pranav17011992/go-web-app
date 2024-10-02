@@ -1,13 +1,12 @@
 name: CI
 
-
 on:
   push:
     branches:
       - main
     paths-ignore:
       - 'README.md'
-        'helm/**'
+      - 'helm/**'
 
 jobs:
   build:
